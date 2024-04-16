@@ -64,7 +64,7 @@ h6 {
   font-family: "Lato", sans-serif;
   font-weight: 600;
   font-style: normal;
-  color: #0c67cd;
+  color: #95c4f9;
   margin-bottom: 8px;
   /* margin-top: 20px; */
 }
@@ -139,7 +139,7 @@ header {
   }
 }
 .logo_dotux {
-  color: #0c67cd;
+  color: #95c4f9;
   animation: blink 1.5s linear infinite;
 }
 
@@ -164,7 +164,7 @@ header {
 }
 
 .nav_links li a:hover {
-  color: #0c67cd;
+  color: #95c4f9;
 }
 
 .header_right {
@@ -174,22 +174,22 @@ header {
 }
 
 button {
-  background-color: #0c67cd;
+  background-color: #95c4f9;
   border: 0cap;
   border-radius: 5px;
   padding: 10px 20px;
   font-family: "Lato", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   font-size: medium;
-  color: #fff;
+  color: #141414;
   cursor: pointer;
   transition: all 0.3s ease 0s;
   margin-bottom: 40px;
 }
 
 button:hover {
-  background-color: #094f9d;
+  background-color: #aad0fa;
 }
 
 .tile_grid a {
@@ -211,7 +211,7 @@ button:hover {
 }
 
 .quote {
-  /* background-color: #0c67cd; */
+  /* background-color: #95C4F9; */
   width: 60%;
   /* height: 100px; */
 }
@@ -226,14 +226,14 @@ em {
 }
 
 .highlight-text {
-  color: #0c67cd;
+  color: #95c4f9;
 }
 
 .project_section {
   /* height: 90dvh; */
   padding: 0 15%;
   margin-top: 0px;
-  /* background-color: #0c67cd; */
+  /* background-color: #95C4F9; */
 }
 
 .casestudies_section {
@@ -252,7 +252,7 @@ em {
 
 .project_sub_section {
   margin-bottom: 40px;
-  /* background-color: #0c67cd; */
+  /* background-color: #95C4F9; */
 }
 
 .tile_grid {
@@ -295,7 +295,7 @@ em {
 }
 
 .tile_card:hover h3 {
-  color: #0c67cd;
+  color: #95c4f9;
   transition: all 0.2s ease;
 }
 
@@ -322,7 +322,7 @@ em {
 .about_section {
   margin-top: 150px;
   margin-bottom: 150px;
-  /* background-color: #0c67cd; */
+  /* background-color: #95C4F9; */
   /* height: 60dvh; */
   display: flex;
   padding: 0 15%;
@@ -332,7 +332,7 @@ em {
 }
 
 .heading {
-  /* background-color: #0c67cd; */
+  /* background-color: #95C4F9; */
   width: 10%;
   height: 100%;
   display: flex;
@@ -384,7 +384,7 @@ footer h2 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #0c67cd;
+  color: #95c4f9;
   text-decoration: none;
 }
 
@@ -404,6 +404,6 @@ footer p {
 }
 
 .footer_social_icons i:hover {
-  color: #0c67cd;
+  color: #95c4f9;
   transition: all 0.3s ease 0s;
 }
