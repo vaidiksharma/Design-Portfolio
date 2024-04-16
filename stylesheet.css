@@ -6,7 +6,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 150px;
+  scroll-padding-top: 130px;
 }
 
 body {
@@ -201,8 +201,7 @@ button:hover {
   background: linear-gradient(
     180deg,
     rgba(20, 20, 20, 1) 0%,
-    rgba(20, 20, 20, 1) 70%,
-    rgba(10, 10, 10, 1) 100%
+    /* rgba(20, 20, 20, 1) 70%, */ rgba(10, 10, 10, 1) 100%
   );
   height: 90dvh;
   display: flex;
@@ -233,8 +232,17 @@ em {
 .project_section {
   /* height: 90dvh; */
   padding: 0 15%;
-  margin-top: 100px;
+  margin-top: 0px;
   /* background-color: #0c67cd; */
+}
+
+.casestudies_section {
+  padding: 0 15%;
+  margin-top: 100px;
+}
+.blogs_section {
+  padding: 0 15%;
+  margin-top: 100px;
 }
 
 .project_subheading h3 {
