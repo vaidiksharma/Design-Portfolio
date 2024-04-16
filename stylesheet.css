@@ -88,30 +88,15 @@ header {
   z-index: 1;
 }
 
-.checkbtn {
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
-}
-
 @media (max-width: 450px) {
   header {
     padding: 15px 10%;
-  }
-
-  .checkbtn {
-    display: block;
   }
 }
 
 @media (max-width: 450px) {
   .quote {
-    background-color: #094f9d;
+    /* background-color: #094f9d; */
     width: 80%;
   }
 }
@@ -201,7 +186,7 @@ button:hover {
   background: linear-gradient(
     180deg,
     rgba(20, 20, 20, 1) 0%,
-    /* rgba(20, 20, 20, 1) 70%, */ rgba(10, 10, 10, 1) 100%
+    rgba(10, 10, 10, 1) 100%
   );
   height: 90dvh;
   display: flex;
@@ -211,13 +196,12 @@ button:hover {
 }
 
 .quote {
-  /* background-color: #95C4F9; */
   width: 60%;
-  /* height: 100px; */
 }
 
 .signature {
   width: 100px;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -230,10 +214,8 @@ em {
 }
 
 .project_section {
-  /* height: 90dvh; */
   padding: 0 15%;
   margin-top: 0px;
-  /* background-color: #95C4F9; */
 }
 
 .casestudies_section {
@@ -252,36 +234,22 @@ em {
 
 .project_sub_section {
   margin-bottom: 40px;
-  /* background-color: #95C4F9; */
 }
 
 .tile_grid {
-  /* background-color: #0b5db9; */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
-  /* background-color: aquamarine; */
-}
-
-@media (max-width: 450px) {
-  .tile_grid {
-    display: grid;
-    grid-auto-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
 
 .tile_grid_case {
-  /* background-color: #0b5db9; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  /* background-color: aquamarine; */
 }
 
 .tile_card {
   background-color: #141414;
-  /* width: 49%; */
   box-sizing: border-box;
   padding: 20px;
   border-radius: 10px;
@@ -305,7 +273,6 @@ em {
 }
 
 .tile_img {
-  /* height: 200px; */
   width: 100%;
   margin-top: 20px;
   border-radius: 5px;
@@ -322,17 +289,13 @@ em {
 .about_section {
   margin-top: 150px;
   margin-bottom: 150px;
-  /* background-color: #95C4F9; */
-  /* height: 60dvh; */
   display: flex;
   padding: 0 15%;
-  /* gap: 40px; */
   align-items: center;
   justify-content: space-between;
 }
 
 .heading {
-  /* background-color: #95C4F9; */
   width: 10%;
   height: 100%;
   display: flex;
@@ -364,10 +327,6 @@ em {
   width: 50%;
 }
 
-/* .about_section p {
-  margin-bottom: 40px;
-} */
-
 footer {
   background-color: #141414;
   display: flex;
@@ -385,7 +344,7 @@ footer h2 {
   font-weight: 400;
   font-style: normal;
   color: #95c4f9;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 footer p {
