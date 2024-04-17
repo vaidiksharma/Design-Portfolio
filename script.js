@@ -51,20 +51,3 @@ document.querySelectorAll(".sidebar a").forEach((item) => {
     hideSidebar();
   });
 });
-
-// resetBtn.addEventListener(
-//   "mouseover",
-//   function () {
-//     heartbeat.play();
-//   },
-//   false
-// );
-
-// resetBtn.addEventListener(
-//   "mouseleave",
-//   function () {
-//     heartbeat.pause();
-//     heartbeat.currentTime = 0;
-//   },
-//   false
-// );
