@@ -28,28 +28,66 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="shortcut icon" type="x-icon" href="favicon.png">  
 </head>
   <body>
-    <header>
+    <nav>
+      <ul class="sidebar">
+
+<li class="nav_top_mobile">
+
+        
+        <div class="logo_text">
+          <a href="#home">
+              <h2>vaidik</h2>
+              <h2 class="logo_dotux">.designs</h2>
+          </a></div>
+
+          <a href="#" onclick="hideSidebar()">
+            <span class="material-symbols-outlined">close</span></a>
+        </li>
+        
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#casestudies">Case Studies</a></li>
+        <li><a href="#blogs">Blogs</a></li>
+        <li><a href="#about">About Me</a></li>
+      </ul>
+      <ul>
+        <li><div class="logo_text">
+          <a href="#home">
+              <h2>vaidik</h2>
+              <h2 class="logo_dotux">.designs</h2>
+          </a>
+      </div></li>
+        <li class="hideOnMobile"><a href="#projects">Work</a></li>
+        <li class="hideOnMobile"><a href="#casestudies">Case Studies</a></li>
+        <li class="hideOnMobile"><a href="#blogs">Blogs</a></li>
+        <li class="hideOnMobile"><a href="#about">About Me</a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><span class="material-symbols-outlined">
+          menu
+          </span></a></li>
+      </ul>
+    </nav>
+
+
+
+    <!-- <header>
          <div class="logo_text">
             <a href="#home">
                 <h2>vaidik</h2>
                 <h2 class="logo_dotux">.designs</h2>
             </a>
         </div>
-
-      <div class="header_right">
-        <nav>
+<nav class="navigation">
           <ul class="nav_links">
             <li><a href="#projects">Work</a></li>
             <li><a href="#casestudies">Case Studies</a></li>
             <li><a href="#blogs">Blogs</a></li>
             <li><a href="#about">About Me</a></li>
           </ul>
-        </nav>
-        </div>  
-    </header>
+        </nav>  
+    </header> -->
 
     <div id="home" class="first_section">
       <div class="quote">
@@ -241,9 +279,9 @@
     </div>
 
     <div id="about" class="about_section">
-      <div class="heading">
+      
         <h1 class="vertical_text">#beyondDesign</h1>
-      </div>
+      
       <audio id="heartbeat" src="music.mp3" preload="auto">
       </audio>
       
