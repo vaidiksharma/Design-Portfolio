@@ -379,13 +379,6 @@ em {
   }
 }
 
-@media (max-width: 500px) {
-  .hindi {
-    margin-top: 40px;
-    font-size: 2rem;
-  }
-}
-
 .vertical_text {
   align-self: center;
   justify-self: center;
@@ -442,6 +435,7 @@ em {
 
 @media (max-width: 500px) {
   .hindi {
+    margin-top: 40px;
     font-size: 2rem;
   }
 }
