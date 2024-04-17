@@ -112,6 +112,11 @@ nav li:first-child {
   margin-right: auto;
 }
 
+.shadow {
+  box-shadow: 0 6px 10px 1px rgba(10, 10, 10, 0.3);
+  transition: all 0.5s ease;
+}
+
 .sidebar {
   padding: 20px 10%;
   position: fixed;
@@ -206,10 +211,12 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
   margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 button:hover {
   background-color: #aad0fa;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .tile_grid a {
@@ -327,13 +334,14 @@ em {
   padding: 20px;
   border-radius: 10px;
   align-self: stretch;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
 }
 
 .tile_card:hover {
   background-color: #202020;
   transition: all 0.2s ease-in-out;
   transform: scale(1.01);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .tile_card:hover h3 {

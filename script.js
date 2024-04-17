@@ -1,3 +1,12 @@
+window.addEventListener("scroll", (event) => {
+  let scroll = this.scrollY;
+  if (scroll > 100) {
+    document.querySelector(".header-wrapper").classList.add("shadow");
+  } else {
+    document.querySelector(".header-wrapper").classList.remove("shadow");
+  }
+});
+
 var playBtn = document.getElementById("play"),
   resetBtn = document.getElementById("reset"),
   hearbeat = document.getElementById("heartbeat");
