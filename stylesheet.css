@@ -135,11 +135,6 @@ nav li:first-child {
   margin-bottom: 0;
 }
 
-.sidebar_bottom_text {
-  margin-top: 250px;
-  color: #adadad;
-}
-
 .nav_top_mobile {
   display: flex;
   align-items: center;
@@ -446,7 +441,9 @@ em {
 }
 
 @media (max-width: 500px) {
-  font-size: 2rem;
+  .hindi {
+    font-size: 2rem;
+  }
 }
 
 footer {
